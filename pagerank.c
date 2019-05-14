@@ -44,7 +44,7 @@ pagerank(double T[4][4]){
 			if (tavolsag(PR,PRv,4) < 0.0000000001) 
 				break;
 		
-		// ide meg az átpakolás PR-ből PRv-be
+		
 			
 			for (i=0;i<4; i++){
 				PRv[i]=PR[i];
